@@ -11,7 +11,17 @@ import SwiftUI
 struct GrubGridAppStoreApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                //This below will create the frosted view on top of the notch for ScrollView
+                NavigationView {
+                    ContentView()
+                }
+                //ContentView()
+            }
+            .tabItem {
+                Image(systemName: "airplane.circle.fill")
+                Text("Discover")
+            }
         }
     }
 }

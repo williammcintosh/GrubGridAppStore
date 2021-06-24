@@ -9,13 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        //Change this to a ScrollView to scroll
+        //Scroll View {
+        VStack {
+            Text("GrubGrid")
+                .font(.largeTitle)
+            Text("A flexible meal-planning app")
+                .foregroundColor(.secondary)
+            Image("GrubGridIcon")
+                .resizable()
+                .scaledToFit()
+            Text("This is some text")
+                .padding(.top)
+        }
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+        }
     }
 }
