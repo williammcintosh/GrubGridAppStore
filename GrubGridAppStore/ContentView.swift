@@ -21,6 +21,7 @@ struct ContentView: View {
                 .scaledToFit()
             Text("This is some text")
                 .padding(.top)
+            //Hello
         }
         
     }
