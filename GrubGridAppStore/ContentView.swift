@@ -22,6 +22,7 @@ struct ContentView: View {
             Text("This is some text")
                 .padding(.top)
             //Hello
+            
         }
         
     }
