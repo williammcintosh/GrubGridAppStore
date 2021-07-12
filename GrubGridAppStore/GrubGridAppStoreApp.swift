@@ -8,7 +8,14 @@
 import SwiftUI
 
 @main
-struct GrubGridAppStoreApp: App {
+struct GrubGridAppStoreApp: App, HomeModelDelegate {
+    
+    init() {
+        var homeModel = HomeModel()
+        homeModel.getItems()
+        homeModel.delegate = self
+    }
+    
     var body: some Scene {
         WindowGroup {
             TabView {
@@ -23,5 +30,8 @@ struct GrubGridAppStoreApp: App {
                 Text("Discover")
             }
         }
+    }
+    func itemsDownloaded(recipes: [Recipe]) {
+        
     }
 }

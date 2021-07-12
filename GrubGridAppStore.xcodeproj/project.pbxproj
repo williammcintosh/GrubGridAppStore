@@ -11,6 +11,8 @@
 		09B2F9952683F53A00F677F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B2F9942683F53A00F677F8 /* ContentView.swift */; };
 		09B2F9972683F53C00F677F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B2F9962683F53C00F677F8 /* Assets.xcassets */; };
 		09B2F99A2683F53C00F677F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B2F9992683F53C00F677F8 /* Preview Assets.xcassets */; };
+		2EDC876B269A6CBD002D383F /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC876A269A6CBD002D383F /* HomeModel.swift */; };
+		2EDC876F269A6D0F002D383F /* Recipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDC876E269A6D0F002D383F /* Recipes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		09B2F9962683F53C00F677F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09B2F9992683F53C00F677F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09B2F99B2683F53C00F677F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDC876A269A6CBD002D383F /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		2EDC876E269A6D0F002D383F /* Recipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				09B2F9962683F53C00F677F8 /* Assets.xcassets */,
 				09B2F99B2683F53C00F677F8 /* Info.plist */,
 				09B2F9982683F53C00F677F8 /* Preview Content */,
+				2EDC876A269A6CBD002D383F /* HomeModel.swift */,
+				2EDC876E269A6D0F002D383F /* Recipes.swift */,
 			);
 			path = GrubGridAppStore;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EDC876F269A6D0F002D383F /* Recipes.swift in Sources */,
 				09B2F9952683F53A00F677F8 /* ContentView.swift in Sources */,
 				09B2F9932683F53A00F677F8 /* GrubGridAppStoreApp.swift in Sources */,
+				2EDC876B269A6CBD002D383F /* HomeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
